@@ -2920,7 +2920,7 @@ update_v2ray() {
 		echo
 		echo -e " $green 咦...发现新版本耶....正在拼命更新.......$none"
 		echo
-		v2ray_download_link="https://github.com/v2ray/v2ray-core/releases/download/$v2ray_latest_ver/v2ray-linux-${v2ray_bit}.zip"
+		v2ray_download_link="https://github.com/v2fly/v2ray-core/releases/download/$v2ray_latest_ver/v2ray-linux-${v2ray_bit}.zip"
 
 		if ! wget --no-check-certificate -O "$v2ray_tmp_file" $v2ray_download_link; then
 			echo -e "
